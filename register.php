@@ -59,7 +59,7 @@ if (isset($_POST['submit'])) {
                         <div class="card-text text-center">
                             <small>
                                 Already have account?
-                                <a href="./login.php" class="card-link ml-3">Log In Here</a>
+                                <a href="./index.php" class="card-link ml-3">Log In Here</a>
                             </small>
                         </div>
                     </form>

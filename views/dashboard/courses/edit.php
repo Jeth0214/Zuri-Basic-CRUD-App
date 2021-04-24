@@ -43,8 +43,10 @@ if (isset($_POST['submit'])) {
                             <label for="course_name">New Course Name</label>
                             <input type="text" class="form-control" id="course_name" name="course_name">
                         </div>
-
-                        <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+                        <div class="d-flex justify-content-between">
+                            <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+                            <a class="btn btn-success" href="../dashboard.php">Back To DashBoard</a>
+                        </div>
                     </form>
                 </div>
 
