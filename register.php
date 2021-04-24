@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
     //echo $erroMessage;
     if (empty($erroMessage)) {
         $register->register($_POST);
-        header('Location: login.php');
+        header('Location:index.php');
     }
 }
 

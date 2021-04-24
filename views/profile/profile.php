@@ -8,7 +8,7 @@ $userProfile = $user->index($_SESSION['userid']);
 // echo $userProfile[0]['id'];
 if (count($userProfile) < 1) {
     $_SESSION['status'] = "Invalid";
-    echo "<script>window.location.href = '../../login.php'</script>";
+    echo "<script>window.location.href = '../../index.php'</script>";
 }
 
 

@@ -6,5 +6,5 @@ if ($_SESSION['status'] === "Invalid" || empty($_SESSION['status'])) {
 
     unset($_SESSION['username']);
 
-    echo "<script>window.location.href = '../../login.php'</script>";
+    echo "<script>window.location.href = '../../index.php'</script>";
 }
