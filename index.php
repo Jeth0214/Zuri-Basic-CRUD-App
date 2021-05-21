@@ -3,7 +3,7 @@ require('./controllers/controllers.php');
 session_start();
 $errorMessage;
 
-if ($_SESSION['status'] === "Invalid" || empty($_SESSION['status'])) {
+if (empty($_SESSION['status'])) {
     $_SESSION['status'] = "Invalid";
 };
 
@@ -35,7 +35,6 @@ if (isset($_POST['submit'])) {
 ?>
 
 <?php include './views/layout/header.php' ?>
-
 <div class="container">
     <h1 class="text-center my-5"> Zuri Basic CRUD Application</h1>
     <div class="row">
